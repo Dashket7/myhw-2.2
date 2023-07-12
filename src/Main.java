@@ -3,17 +3,16 @@
 public class Main {
     public static void main(String[] args) {
         int x = 100; //начальная сумма
-        int y = 1200; // сумма пополнения
-        int i; // итоговая сумма
+        int y = 400; // сумма пополнения
         int bonus;
-        bonus = y / 100 * 1;
-
 
         if (y > 1000) {
-            i = x + y + bonus;
+        bonus = y/100 ;
         } else {
-            i = y + x;
+            bonus = 0;
         }
+        int i = x + y + bonus; // итоговая сумма
+
         System.out.println("Итоговая сумма " + i);
         System.out.println ("Бонусы " + bonus);
     }
