@@ -7,13 +7,13 @@ public class Main {
         int bonus;
 
         if (y > 1000) {
-        bonus = y/100 ;
+            bonus = y / 100;
         } else {
             bonus = 0;
         }
         int i = x + y + bonus; // итоговая сумма
 
         System.out.println("Итоговая сумма " + i);
-        System.out.println ("Бонусы " + bonus);
+        System.out.println("Бонусы " + bonus);
     }
 }
